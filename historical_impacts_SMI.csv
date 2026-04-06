@@ -1,0 +1,11 @@
+event,type,intensity,date,Banques,Pharma,Alimentation,Luxe/Export,Assurance,Industrie
+COVID-19 Pandemic,pandemic,10,2020-02-24,-35.43,-17.19,-13.1,-25.04,-34.43,-24.62
+Russia Ukraine War,war,8,2022-02-24,8.65,9.65,4.13,-6.3,8.48,-3.24
+BNS Taux Negatifs,central_bank,7,2015-01-15,6.52,-0.89,1.51,9.3,2.78,-0.35
+US Fed Rate Hike 2022,central_bank,6,2022-03-16,0.6,10.62,8.73,-1.48,8.6,-5.26
+Credit Suisse Collapse,banking_crisis,8,2023-03-15,19.76,12.07,5.35,2.03,11.26,0.72
+Global Financial Crisis,banking_crisis,10,2008-09-15,-4.98,-11.93,-13.64,-19.3,-16.85,-15.66
+Brexit Vote,political,6,2016-06-24,-3.24,6.18,9.3,-3.15,2.73,1.44
+US Election Trump 2016,political,5,2016-11-09,24.07,-5.73,-3.26,3.74,6.08,-3.02
+Inflation Peak 2022,inflation,7,2022-06-10,-5.87,0.57,4.12,-2.4,-0.07,-5.23
+SVB Bank Collapse,banking_crisis,6,2023-03-10,-1.3,12.02,7.55,-5.56,5.8,-0.75

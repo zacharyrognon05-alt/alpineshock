@@ -47,4 +47,8 @@ streamlit run app.py
 | `events_db.py` | 35+ historical events database |
 | `historical_impacts_SMI.csv` | SMI sector impact data |
 | `predictor.py` | In development |
+
+---
+
 *Built by Zach Rognon — International Economics student, Switzerland*
+

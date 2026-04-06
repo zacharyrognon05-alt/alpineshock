@@ -28,12 +28,23 @@ st.markdown("""
 * { font-family: 'IBM Plex Sans', sans-serif; }
 
 .stApp { background-color: #08090e; color: #e8eaf0; }
+.block-container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
 
 section[data-testid="stSidebar"] {
     background-color: #0d0f17;
     border-right: 1px solid #1a1d2e;
 }
-section[data-testid="stSidebar"] * { color: #e8eaf0; }
+            button[kind="header"] {
+    display: none !important;
+}
+section[data-testid="stSidebar"] * { color: #e8eaf0; }/* Hide sidebar collapse button */
+button[data-testid="collapsedControl"],
+section[data-testid="stSidebar"] > div > div > div > button {
+    display: none !important;
+}
 
 .stSelectbox > div > div {
     background-color: #12141f !important;
@@ -143,7 +154,7 @@ body::before {
     top: 0;
     left: 0;
     right: 0;
-    height: 2px;
+    height: 3px;
     background: linear-gradient(90deg, #4a9eff, #7c5cbf, #4a9eff);
     z-index: 99999;
     pointer-events: none;
@@ -178,7 +189,7 @@ body::before {
 }
 /* Push content down to account for topbar */
 .main .block-container {
-    padding-top: 4rem !important;
+    padding-top: 2rem !important;
 }
 section[data-testid="stSidebar"] {
     padding-top: 44px !important;
@@ -224,7 +235,6 @@ with st.sidebar:
 st.markdown("""
 <div style="padding:1.5rem 0 0.5rem 0;display:flex;align-items:baseline;gap:0.8rem;">
     <div style="font-size:1.4rem;font-weight:600;letter-spacing:-0.03em;color:#e8eaf0;">AlpineShock</div>
-    <div style="font-size:0.6rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:#2a3040;padding-bottom:2px;">Market Impact Analyzer</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -249,7 +259,7 @@ with tab_impact:
             Select an event in the sidebar to analyze its real market impact across sectors,
             with live price data sourced from Yahoo Finance.
         </div>
-        <div style="display:flex;gap:2.5rem;">
+        <div style="display:flex;gap:2.5rem;margin-top:1.5rem;">
             <div>
                 <div style="font-family:'IBM Plex Mono',monospace;font-size:1.6rem;font-weight:500;color:#e8eaf0;">{total_events}</div>
                 <div style="font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:#4a5060;margin-top:0.1rem;">Historical Events</div>

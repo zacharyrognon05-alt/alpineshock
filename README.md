@@ -38,6 +38,13 @@ streamlit run app.py
 
 ---
 
-## Project Structure---
+## Project Structure
 
+| File | Description |
+|------|-------------|
+| `app.py` | Main Streamlit app (2 tabs) |
+| `charts.py` | Plotly chart functions |
+| `events_db.py` | 35+ historical events database |
+| `historical_impacts_SMI.csv` | SMI sector impact data |
+| `predictor.py` | In development |
 *Built by Zach Rognon — International Economics student, Switzerland*

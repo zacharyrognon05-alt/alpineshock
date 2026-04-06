@@ -1,4 +1,4 @@
-# 🌍 AlpineShock — Global Market Impact Analyzer
+![AlpineShock Banner](banner.png)# 🌍 AlpineShock — Global Market Impact Analyzer
 
 > Quantify the effect of geopolitical shocks on financial markets.
 
